@@ -607,6 +607,31 @@ kbd { padding: 2px 7px; border: 1px solid var(--line-strong); border-bottom-widt
 }
 .official-content ul:has(> li > a[href*="/page/"]) a:hover { border-color: var(--ink); }
 
+/* Staff directory copied from the official site: rows of cards, each a photo + name + details.
+   Photos arrive at very different sizes, so every one is cropped to the same frame. */
+.official-content div:has(> div > div > div > img + div > h4) {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); gap: 0 14px;
+}
+.official-content div:has(> div > div > div > img + div > h4) > * { grid-column: 1 / -1; }
+.official-content div:has(> div > div > img + div > h4) { display: contents; }
+.official-content div:has(> div > img + div > h4) { min-width: 0; margin-bottom: 14px; }
+.official-content div:has(> img + div > h4) {
+  display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 16px; align-items: start; height: 100%;
+  padding: 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface);
+}
+.official-content div:has(> img + div > h4) > img {
+  width: 96px; height: 120px !important; margin: 0; object-fit: cover; object-position: 50% 20%;
+  border-radius: var(--radius-sm); background: var(--stone-2); color: transparent; font-size: 0;
+}
+.official-content div:has(> img + div > h4) > div { min-width: 0; font-size: var(--fs-sm); line-height: 1.6; color: var(--muted); }
+.official-content div:has(> img + div > h4) h4 { margin: 2px 0 4px; font-size: 17px; line-height: 1.3; }
+.official-content div:has(> img + div > h4) h4 a { color: var(--ink); text-decoration: none; }
+.official-content div:has(> img + div > h4) h4 a:hover { color: var(--accent); text-decoration: underline; }
+.official-content div:has(> img + div > h4) p { margin: 0; }
+.official-content div:has(> img + div > h4) p:empty, .official-content div:has(> img + div > h4) span:empty { display: none; }
+.official-content div:has(> img + div > h4) hr { margin: 10px 0; }
+.official-content div:has(> img + div > h4) a[href^="mailto:"] { font-size: var(--fs-sm); }
+
 /* Section navigation */
 .section-sidebar {
   position: sticky; top: 24px; align-self: start; max-height: calc(100vh - 48px); overflow-y: auto;
@@ -736,6 +761,8 @@ kbd { padding: 2px 7px; border: 1px solid var(--line-strong); border-bottom-widt
   .official-content h3 { font-size: 20px; }
   .official-content div:has(> div > a > img):has(> div > h3) { grid-template-columns: 96px minmax(0, 1fr); gap: 16px; }
   .official-content div:has(> div > a > img):has(> div > h3) h3 { font-size: 18px; }
+  .official-content div:has(> img + div > h4) { grid-template-columns: 80px minmax(0, 1fr); gap: 14px; padding: 14px; }
+  .official-content div:has(> img + div > h4) > img { width: 80px; height: 100px !important; }
 }
 
 @media (max-width: 400px) {
