@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ARCH UOA Redesign Proposal//Academic Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:winter-2026-2027-0@arch-uoa-prototype
+DTSTAMP:20261022T120000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20270109
+SUMMARY:Winter semester teaching · NKUA
+DESCRIPTION:Department of History and Archaeology. Check the official sour
+ ce for updates. Snapshot: 22 October 2026.
+URL:https://www.arch.uoa.gr/spoydes/proptychiakes_spoydes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:winter-2026-2027-1@arch-uoa-prototype
+DTSTAMP:20261022T120000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270213
+SUMMARY:February examinations · NKUA
+DESCRIPTION:Department of History and Archaeology. Check the official sour
+ ce for updates. Snapshot: 22 October 2026.
+URL:https://www.arch.uoa.gr/spoydes/proptychiakes_spoydes
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

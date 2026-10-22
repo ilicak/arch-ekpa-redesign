@@ -1,0 +1,43 @@
+UNIVERSITY OF ATHENS — DEPARTMENT OF HISTORY AND ARCHAEOLOGY
+Departmental redesign preview — upload-ready website
+Prepared 22 October 2026
+
+PUBLISH WITHOUT CONNECTING GITHUB TO CHATGPT
+
+1. Sign in or create an account at https://app.netlify.com/login
+   Choose the Free plan. A paid upgrade is not needed just to make this
+   prototype public. The Free plan has monthly usage limits.
+2. Open https://app.netlify.com/drop
+3. Drag arch-uoa-preview.zip into the upload area. If your upload screen
+   accepts folders only, extract the ZIP and drag the folder containing
+   index.html into the upload area instead.
+4. After the deployment completes, select Make public if the project is
+   private. You can choose a project name such as arch-uoa-preview if it
+   is available; this sets the first part of the netlify.app address.
+5. Copy the actual netlify.app link shown by Netlify. Open it in a private
+   browser window to confirm that it can be viewed without signing in,
+   then share that link with colleagues.
+
+No source-code repository or ChatGPT integration is needed for this upload.
+Sign in before uploading: anonymous uploads are password-protected until
+claimed. If you cannot find Make public, look under Project configuration
+> General > Visitor access > Project visibility.
+
+WHAT IS INCLUDED
+
+index.html is at the root of this ZIP alongside styles.css and app.js.
+The assets folder contains all images, fonts, font licenses, and calendars.
+There is no installation step and no build command.
+The existing search, filters, saved announcements, tabs, dialogs, mobile
+navigation and calendar downloads are included.
+The empty .nojekyll file also supports a later static GitHub Pages upload.
+
+This is a departmental redesign proposal, clearly labelled as a prototype.
+Announcements and dates are a fixed snapshot prepared on 22 October 2026.
+The official department website is https://www.arch.uoa.gr/
+Asset provenance is in ASSET_SOURCES.md; original rights remain with owners.
+
+Official hosting guidance checked on 22 October 2026:
+https://docs.netlify.com/start/quickstarts/netlify-drop-quickstart/
+https://docs.netlify.com/manage/security/secure-access-to-sites/project-visibility/
+https://www.netlify.com/pricing/

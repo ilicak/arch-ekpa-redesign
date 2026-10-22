@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ARCH UOA Redesign Proposal//Academic Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:internship-deadline-0@arch-uoa-prototype
+DTSTAMP:20261022T120000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Internship application deadline · NKUA
+DESCRIPTION:Applications close at 23:59 Greece time. Check the official ca
+ ll for updates.
+URL:https://www.arch.uoa.gr/anakoinoseis_kai_ekdiloseis/proboli_anakoinosi
+ s/anartisi_prosklisis_aitiseon_gia_praktiki_askisi_2026_2027
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

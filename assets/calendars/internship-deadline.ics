@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ARCH UOA Redesign Proposal//Academic Calendar//EL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:internship-deadline-0@arch-uoa-prototype
+DTSTAMP:20261022T120000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Λήξη αιτήσεων πρακτικής άσκησης · Ε
+ ΚΠΑ
+DESCRIPTION:Λήξη αιτήσεων στις 23:59 ώρα Ελλάδα
+ ς. Ελέγξτε την επίσημη πρόσκληση για τυ
+ χόν αλλαγές.
+URL:https://www.arch.uoa.gr/anakoinoseis_kai_ekdiloseis/proboli_anakoinos
+ is/anartisi_prosklisis_aitiseon_gia_praktiki_askisi_2026_2027
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
